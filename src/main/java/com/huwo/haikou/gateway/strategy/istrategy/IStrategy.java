@@ -28,8 +28,15 @@ public abstract class IStrategy implements InitializingBean {
         KafkaUtils.sendMessage(s, ipcType);
     }
 
-    //数据进一步组装
-    protected String handleData(String sourceData) {
-        return sourceData;
+    /**
+     *
+     * @Description:  数据进一步组装，模板模式接口，利于后期拓展
+     * @Author: liuchang
+     * @Date: 2022-10-17 12:26
+     * @Param: [sourceData]
+     * @Return: java.lang.String
+     **/
+    protected String handleData(String duBodyToString) {
+        return duBodyToString;
     }
 }
