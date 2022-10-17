@@ -89,7 +89,11 @@
 <!--    </appender>-->
 
     <logger name="com.huwo.haikou.gateway" level="INFO"/>
-
+    <!--  关闭关于kafka的ProducerConfig和ConsumerConfig日志  -->
+<!--    <logger name="org.apache.kafka.clients.producer.ProducerConfig" level="off" />-->
+<!--    <logger name="org.apache.kafka.clients.consumer.ConsumerConfig" level="off" />-->
+    <!--  关闭kafka所有日志  -->
+    <logger name="org.apache.kafka" level="off" />
     <root level="INFO">
         <appender-ref ref="console"/>
         <appender-ref ref="info"/>
