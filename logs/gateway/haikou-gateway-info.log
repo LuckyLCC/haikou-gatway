@@ -431,3 +431,16 @@
 2022-10-17 13:48:54.492 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 448719dc99a19793
 2022-10-17 13:48:54.492 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1665985734491
 2022-10-17 13:48:54.700 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: Mycfm9oESO20C-MAjFMoWw
+2022-10-17 13:49:55.296 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 14768 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 13:49:55.297 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 13:49:55.963 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 13:49:55.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 13:49:55.971 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 13:49:55.971 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 13:49:56.059 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 13:49:56.059 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 710 ms
+2022-10-17 13:49:56.097 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 13:49:56.393 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 13:49:56.404 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 13:49:56.414 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.42 seconds (JVM running for 2.185)
+2022-10-17 13:50:21.496 [main] INFO  com.huwo.haikou.gateway.utils.KafkaUtils - 发送kafka数据为{"channel":"HW-DB","data":"{\"address\":\"1\",\"level\":\"1.0\",\"reportTimeJtb\":\"1\",\"reportStatus\":\"1\",\"updateTime\":\"2022-10-17 11:16:44\",\"reportTimeLocal\":\"1\",\"reportResultLocal\":\"1\",\"companyId\":\"1\",\"createTime\":\"2022-10-17 11:16:44\",\"id\":\"1\",\"dataChannel\":\"1\",\"testDepartment\":\"1\",\"licenseId\":\"1\",\"reportTesultJtb\":\"1\",\"ipcType\":\"ratedDriver\",\"testDate\":\"1\"}","ipcType":"ratedDriver"},topic为lx-datahospice.basic.quality
