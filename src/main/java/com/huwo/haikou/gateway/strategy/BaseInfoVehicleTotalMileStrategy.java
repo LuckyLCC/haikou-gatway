@@ -14,14 +14,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class BaseInfoVehicleTotalMileStrategy extends IStrategy {
-    @Override
-    protected String handleData(String sourceData, String ipcType) {
-        DuBody body = new DuBody();
-        body.setIpcType(ipcType);
-        body.setChannel("HW");
-        body.setData(sourceData);
-        return JSON.toJSONString(body);
-    }
 
     @Override
     public void afterPropertiesSet() throws Exception {
