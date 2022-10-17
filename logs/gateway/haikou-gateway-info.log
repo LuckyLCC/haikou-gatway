@@ -1,0 +1,215 @@
+2022-10-17 11:27:56.100 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 7536 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 11:27:56.102 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 11:27:56.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 11:27:56.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:27:56.752 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 11:27:56.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 11:27:56.841 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 11:27:56.842 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+2022-10-17 11:27:56.874 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 11:27:57.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:27:57.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 11:27:57.147 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.335 seconds (JVM running for 1.941)
+2022-10-17 11:28:17.222 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.202.102:9092, 192.168.202.103:9092, 192.168.202.104:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-10-17 11:28:17.263 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.0
+2022-10-17 11:28:17.263 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 448719dc99a19793
+2022-10-17 11:28:17.263 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1665977297261
+2022-10-17 11:28:17.489 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: Mycfm9oESO20C-MAjFMoWw
+2022-10-17 11:30:30.745 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 33552 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 11:30:30.748 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 11:30:31.395 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 11:30:31.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:30:31.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 11:30:31.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 11:30:31.485 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 11:30:31.485 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+2022-10-17 11:30:31.523 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 11:30:31.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:30:31.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 11:30:31.795 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.356 seconds (JVM running for 2.049)
+2022-10-17 11:30:46.853 [main] INFO  com.huwo.haikou.gateway.utils.KafkaUtils - 发送kafka数据为{"channel":"HW","data":"{\"address\":\"1\",\"level\":\"1.0\",\"reportTimeJtb\":\"1\",\"reportStatus\":\"1\",\"updateTime\":\"2022-10-17 11:16:44\",\"reportTimeLocal\":\"1\",\"reportResultLocal\":\"1\",\"companyId\":\"1\",\"createTime\":\"2022-10-17 11:16:44\",\"id\":\"1\",\"dataChannel\":\"1\",\"testDepartment\":\"1\",\"licenseId\":\"1\",\"reportTesultJtb\":\"1\",\"ipcType\":\"ratedDriver\",\"testDate\":\"1\"}","ipcType":"ratedDriver"},topic为lx-datahospice.basic.quality
+2022-10-17 11:30:46.866 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.202.102:9092, 192.168.202.103:9092, 192.168.202.104:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = false
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-10-17 11:30:46.906 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.0
+2022-10-17 11:30:46.906 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 448719dc99a19793
+2022-10-17 11:30:46.906 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1665977446905
+2022-10-17 11:30:47.105 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: Mycfm9oESO20C-MAjFMoWw
+2022-10-17 11:31:46.423 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 20560 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 11:31:46.424 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 11:31:47.077 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 11:31:47.082 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:31:47.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 11:31:47.087 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 11:31:47.171 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 11:31:47.171 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
+2022-10-17 11:31:47.213 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 11:31:47.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:31:47.473 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 11:31:47.480 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.347 seconds (JVM running for 1.97)
+2022-10-17 11:33:16.448 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 29036 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 11:33:16.450 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 11:33:17.094 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 11:33:17.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:33:17.099 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 11:33:17.100 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 11:33:17.190 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 11:33:17.190 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 691 ms
+2022-10-17 11:33:17.227 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 11:33:17.479 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:33:17.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 11:33:17.500 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.336 seconds (JVM running for 2.0)
+2022-10-17 11:35:27.695 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 15796 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 11:35:27.696 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 11:35:28.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 11:35:28.343 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:35:28.344 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 11:35:28.344 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 11:35:28.434 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 11:35:28.434 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 692 ms
+2022-10-17 11:35:28.473 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.kafka.core.KafkaTemplate com.huwo.haikou.gateway.utils.KafkaUtils.kafkaTemplate
+2022-10-17 11:35:28.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 11:35:28.742 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 11:35:28.748 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.356 seconds (JVM running for 1.984)
