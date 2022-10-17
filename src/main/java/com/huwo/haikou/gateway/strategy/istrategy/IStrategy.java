@@ -22,10 +22,10 @@ public abstract class IStrategy implements InitializingBean {
         body.setData(jsonObject.toJSONString());
 
         //处理数据
-        String s = handleData(JSON.toJSONString(body));
+        String message = handleData(JSON.toJSONString(body));
 
         //发送kafka
-        KafkaUtils.sendMessage(s, ipcType);
+        KafkaUtils.sendMessage(message, ipcType);
     }
 
     /**
