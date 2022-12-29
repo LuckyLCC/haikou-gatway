@@ -444,3 +444,48 @@
 2022-10-17 13:49:56.404 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
 2022-10-17 13:49:56.414 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.42 seconds (JVM running for 2.185)
 2022-10-17 13:50:21.496 [main] INFO  com.huwo.haikou.gateway.utils.KafkaUtils - 发送kafka数据为{"channel":"HW-DB","data":"{\"address\":\"1\",\"level\":\"1.0\",\"reportTimeJtb\":\"1\",\"reportStatus\":\"1\",\"updateTime\":\"2022-10-17 11:16:44\",\"reportTimeLocal\":\"1\",\"reportResultLocal\":\"1\",\"companyId\":\"1\",\"createTime\":\"2022-10-17 11:16:44\",\"id\":\"1\",\"dataChannel\":\"1\",\"testDepartment\":\"1\",\"licenseId\":\"1\",\"reportTesultJtb\":\"1\",\"ipcType\":\"ratedDriver\",\"testDate\":\"1\"}","ipcType":"ratedDriver"},topic为lx-datahospice.basic.quality
+2022-10-17 19:23:15.077 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 20552 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 19:23:15.078 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 19:23:15.814 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 19:23:15.822 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:23:15.823 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 19:23:15.823 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 19:23:15.917 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 19:23:15.917 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 789 ms
+2022-10-17 19:23:16.240 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:23:16.250 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 19:23:16.255 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.517 seconds (JVM running for 2.097)
+2022-10-17 19:25:04.463 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 21172 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 19:25:04.465 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 19:25:05.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 19:25:05.106 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:25:05.106 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 19:25:05.106 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 19:25:05.190 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 19:25:05.191 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 679 ms
+2022-10-17 19:25:05.463 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:25:05.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 19:25:05.483 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.315 seconds (JVM running for 1.989)
+2022-10-17 19:27:21.065 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 7616 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 19:27:21.073 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 19:27:21.903 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 19:27:21.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:27:21.912 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 19:27:21.912 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 19:27:22.002 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 19:27:22.002 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 778 ms
+2022-10-17 19:27:22.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:27:22.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 19:27:22.310 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 2.055 seconds (JVM running for 2.755)
+2022-10-17 19:29:30.462 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Starting HaikouGatwayApplication using Java 1.8.0_333 on liuchang with PID 12224 (D:\haikou-gatway\target\classes started by 27806 in D:\haikou-gatway)
+2022-10-17 19:29:30.463 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - No active profile set, falling back to 1 default profile: "default"
+2022-10-17 19:29:31.094 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-10-17 19:29:31.103 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:29:31.103 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-17 19:29:31.103 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 19:29:31.186 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-17 19:29:31.186 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2022-10-17 19:29:31.468 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-10-17 19:29:31.483 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-17 19:29:31.488 [main] INFO  com.huwo.haikou.gateway.HaikouGatwayApplication - Started HaikouGatwayApplication in 1.32 seconds (JVM running for 2.023)
+2022-10-17 19:29:50.660 [main] INFO  com.huwo.haikou.gateway.utils.KafkaUtils - 发送kafka数据为{"channel":"HW-DB","data":"{\"address\":\"1\",\"level\":\"1.0\",\"reportTimeJtb\":\"1\",\"reportStatus\":\"1\",\"reportTimeLocal\":\"1\",\"reportResultLocal\":\"1\",\"companyId\":\"1\",\"createTime\":\"2022-10-17 11:16:44\",\"id\":\"1\",\"dataChannel\":\"1\",\"testDepartment\":\"1\",\"licenseId\":\"1\",\"reportTesultJtb\":\"1\",\"ipcType\":\"ratedDriver\",\"testDate\":\"1\"}","ipcType":"ratedDriver"},topic为lx-datahospice.basic.quality

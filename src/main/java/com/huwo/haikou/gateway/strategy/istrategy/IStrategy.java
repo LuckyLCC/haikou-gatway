@@ -12,7 +12,7 @@ public abstract class IStrategy implements InitializingBean {
     public void handleAndSendData(String sourceData, String ipcType) {
         //统一数据处理
         JSONObject jsonObject = JSONObject.parseObject(sourceData);
-        jsonObject.put("bbb", jsonObject.get("aaa"));
+        jsonObject.put("updateTime", jsonObject.get("updateTimeBiz"));
 
 
         //封装数据

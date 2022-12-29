@@ -24,6 +24,7 @@ public class HaikouGatwayApplication {
         SpringApplication.run(HaikouGatwayApplication.class, args);
 
         CanalConfig canalConfig = new CanalConfig();
+
         service.execute(canalConfig);
 
         while (true) {

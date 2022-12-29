@@ -26,7 +26,7 @@ public class StrategyFactory {
     }
 
     public static  void register(String name,IStrategy iStrategy){
-        if (StringUtils.isEmpty(name) || null == iStrategy) {
+        if (!StringUtils.hasText(name) || null == iStrategy) {
            return;
         }
         strategies.put(name,iStrategy);
